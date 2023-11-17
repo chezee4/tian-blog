@@ -1,12 +1,11 @@
-import React from 'react'
 
 export default function ProgressCircle() {
   return (
-    <div className="relative w-52 h-52">
+    <div className="relative w-24 h-24">
     <svg className="w-full h-full " viewBox="0 0 100 100" fill="none">
       <circle
         className=""
-        stroke-width="13"
+        strokeWidth="13"
         cx="50"
         cy="50"
         r="40"
@@ -20,28 +19,28 @@ export default function ProgressCircle() {
         y2="0%"
         gradientUnits="userSpaceOnUse"
       >
-        <stop offset="0" stop-color="#FEE140"></stop>
-        <stop offset="1" stop-color="#FA709A"></stop>
+        <stop offset="0" stopColor="#FEE140"></stop>
+        <stop offset="1" stopColor="#FA709A"></stop>
       </linearGradient>
       <circle
         className="   progress-ring__circle stroke-current"
-        stroke-width="13"
-        stroke-linecap="round"
+        strokeWidth="13"
+        strokeLinecap="round"
         cx="50"
         cy="50"
         r="40"
         stroke="url(#20055f5c)"
-        stroke-dashoffset="calc(400 - (510 * 45) / 100)"
+        strokeDashoffset="calc(400 - (510 * 45) / 100)"
       ></circle>
 
       <text
         x="50"
         y="50"
-        font-family="Verdana"
-        font-size="15"
+        fontFamily="Verdana"
+        fontSize="15"
         fontWeight={600}
-        text-anchor="middle"
-        alignment-baseline="middle"
+        textAnchor="middle"
+        alignmentBaseline="middle"
         fill="#141414"
       >
         97%
