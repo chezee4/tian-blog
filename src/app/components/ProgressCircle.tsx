@@ -1,6 +1,6 @@
 export default function ProgressCircle() {
   return (
-    <div className="relative w-[13.75rem] h-[13.75rem]">
+    <div className="relative w-[220px] h-[220px]">
       <svg className="w-full h-full" viewBox="0 0 100 100" fill="none">
         <circle
           className=""
@@ -41,7 +41,7 @@ export default function ProgressCircle() {
           textAnchor="middle"
           alignmentBaseline="middle"
           fill="#fff"
-          className="text-white dark:text-mainGray"
+          className="dark:fill-white fill-mainGray"
         >
           97%
         </text>
