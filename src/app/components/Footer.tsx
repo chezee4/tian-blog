@@ -21,7 +21,7 @@ const Footer: React.FC = (): JSX.Element => {
             alt="footerAbstract"
             className=" absolute right-0 top-0"
           />
-          <Image src={img} alt="People" className=" absolute bottom-0 -left-[3.25rem] md:left-0 hidden mm:block" />
+          <Image src={img} alt="People" className=" absolute bottom-0 -left-[3.25rem] w-[185px] md:w-auto md:left-0 hidden mm:block" />
           <div className="ml-[2rem]  mm:ml-[8.5rem] sm:ml-[12rem] md:ml-[20rem] w-max mr-5 sm:mr-10 text-white">
             {" "}
             <span className="text-[14px] mm:text-[12px] sm:text-[14px] md:text-[22px] leading-normal font-bold inline-block sm:block">Thanks for visit my website </span>
